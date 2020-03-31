@@ -1,0 +1,64 @@
+body,
+input,
+textarea {
+  font-size: 20px;
+  font-family: "Amatic SC";
+}
+
+#menu ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+#menu ul li {
+  padding: 10px;
+  width: 33%;
+}
+
+#menu ul li img {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+  background-color: #81d8d0;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: coral;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(201, 76, 76, 0.3);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #92a8d1;
+  padding: 20px;
+}
